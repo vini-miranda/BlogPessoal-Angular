@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#img-bg{
+    background-image: url(https://image.freepik.com/vetores-gratis/paisagem-de-montanhas-vaporwave-ao-por-do-sol-ilustracao-em-vetor-eps-10_148087-301.jpg);
+    min-height: 734px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
