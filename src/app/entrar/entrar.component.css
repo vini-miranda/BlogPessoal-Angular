@@ -3,8 +3,40 @@
     margin: 0;
 }
 
+.back{
+    background-color: rgb(65, 59, 138);
+}
+
+label{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.font{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+.font-black{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+}
+
+.botao{
+    background-color: rgb(238, 238, 115);
+}
+
+.botao :hover{
+    background-color: rgb(158, 158, 45);
+}
+
 #img-bg{
-    background-image: url(https://image.freepik.com/vetores-gratis/paisagem-de-montanhas-vaporwave-ao-por-do-sol-ilustracao-em-vetor-eps-10_148087-301.jpg);
+    background-image: url(https://blog.spoongraphics.co.uk/wp-content/uploads/2020/03/cyberpunk-effect.jpg);
     min-height: 657px;
     background-position: center;
     background-size: cover;

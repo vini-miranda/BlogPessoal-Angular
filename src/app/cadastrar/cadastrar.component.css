@@ -1,7 +1,36 @@
 #img-bg{
-    background-image: url(https://image.freepik.com/vetores-gratis/paisagem-da-floresta-de-pinheiros-no-por-do-sol-de-noite-com-ilustracao-do-ceu-de-montanha_105940-506.jpg);
+    background-image: url(https://i.pinimg.com/originals/32/1c/97/321c979cd9c84615a5e9797f4fabe339.jpg);
     min-height: 657px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+}
+
+.back{
+    background-color: rgb(65, 59, 138);
+}
+
+label{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+}
+
+.font{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+.font-black{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+}
+
+.botao{
+    background-color: rgb(238, 238, 115);
 }
