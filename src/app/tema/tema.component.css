@@ -1,0 +1,22 @@
+.back{
+    background-color: rgb(65, 59, 138);
+}
+
+input{
+    font-family: 'DotGothic16', sans-serif;
+    padding-left: 10px;
+}
+
+.font{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+.font-black{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+}
+
+.botao{
+    background-color: rgb(238, 238, 115);
+}

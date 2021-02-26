@@ -26,3 +26,16 @@ ul.social-network li{
 .fa-linkedin-square :hover{
     color: #0072b1;
 }
+
+.back{
+    background-color: rgb(65, 59, 138);
+}
+
+.back-copy{
+    background-color: rgb(31, 26, 83);
+}
+
+.font{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}

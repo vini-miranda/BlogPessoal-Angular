@@ -2,21 +2,21 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-center text-primary">Atualizar Tema</h1>
+            <h1 class="text-center font-black" style="text-decoration: underline;">Atualizar Tema</h1>
         </div>
     </div>
 
     <div class="row d-flex justify-content-center">
         <div class="col-md-6">
             <div class="form-group">
-                <label for="descricao">Descrição</label>
+                <label for="descricao font-black">Descrição</label>
                 <input type="text" class="form-control" id="descricao" [(ngModel)]='tema.descricao'>
             </div>
 
 
             <div class="d-flex justify-content-center">
-                <button class="btn btn-danger mr-4" routerLink='/tema'>Cancelar</button>
-                <button class="btn btn-success" (click)='atualizar()'>Atualizar</button>
+                <button class="btn btn-danger font mr-4" routerLink='/tema'>Cancelar</button>
+                <button class="btn botao font-black" (click)='atualizar()'>Atualizar</button>
             </div>
         </div>
     </div>
