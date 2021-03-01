@@ -20,6 +20,13 @@ export class EntrarComponent implements OnInit {
 
   ngOnInit(){
     window.scroll(0,0)
+    let url = this.router.url
+    if(url == '/entrar'){
+      environment.token = ''
+      environment.nome = ''
+      environment.foto = ''
+      environment.id = 0
+    }
   }
 
   entrar(){
