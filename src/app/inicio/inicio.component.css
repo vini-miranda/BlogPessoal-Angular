@@ -1,36 +1,46 @@
-.fs-54{
+.fs-54 {
     font-size: 54pt;
 }
 
-.fs-18{
+.fs-18 {
     font-size: 18pt;
 }
 
-.font{
+.font {
     font-family: 'DotGothic16', sans-serif;
     color: white;
 }
 
-.font-black{
+.font-black {
     font-family: 'DotGothic16', sans-serif;
     color: black;
 }
 
-.font-roboto{
+.font-roboto {
     font-family: 'Roboto', sans-serif;
     color: black;
     letter-spacing: 2px;
 }
 
-.font-roboto-lt{
+.font-roboto-lt {
     font-family: 'Roboto', sans-serif;
     color: black;
 }
 
-.back{
+.back {
     background-color: rgb(65, 59, 138);
 }
 
-.botao{
+.hov :hover {
+    background-color: rgb(65, 59, 138);
+}
+
+.botao {
     background-color: rgb(238, 238, 115);
+}
+
+.foto-back {
+    background-image: url(../../assets/img/nm-cg-studio-01-100.jpg.png);
+    background-position: bottom;
+    background-size: 100%;
 }
