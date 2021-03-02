@@ -2,7 +2,7 @@
 
     <div class="row">
         <div class="col-md-12">
-            <h1 class="text-center mt-3">Atualizar postagem?</h1>
+            <h1 class="text-center mt-3 font-black" style="text-decoration: underline;">Atualizar postagem?</h1>
         </div>
     </div>
 
@@ -12,20 +12,19 @@
             <div class="modal-body">
 
                 <div class="form-group">
-                    <label for="titulo">Título</label>
+                    <label for="titulo" class="font-black">Título</label>
                     <input [(ngModel)]='postagem.titulo' type="text" class="form-control" id="titulo"
                         placeholder="Digite o título">
                 </div>
 
                 <div class="form-group">
-                    <label for="texto">Texto</label>
+                    <label for="texto" class="font-black">Texto</label>
                     <textarea [(ngModel)]='postagem.texto' name="texto" class="form-control" id="texto"
                         rows="3"></textarea>
                 </div>
 
                 <div class="form-group">
-                    <label for="tema">Escolha um tema ou <a data-dismiss="modal" routerLink='/tema'>cadastre um
-                            novo</a>:</label>
+                    <label for="tema" class="font-black">Tema</label>
                     <select name="tema" class="form-control" id="tema" [(ngModel)]='idTema' (change)='findByIdTema()'>
                         <option *ngFor='let item of listaTemas' value="{{item.id}}">
                             {{item.descricao}}
@@ -34,13 +33,13 @@
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <button class="btn mr-4" routerLink='/inicio'>Cancelar</button>
-                    <button class="btn btn-success" (click)='atualizar()'>Atualizar</button>
+                    <button class="btn btn-danger mr-4 font" routerLink='/inicio'>Cancelar</button>
+                    <button class="btn botao font-black" (click)='atualizar()'>Atualizar</button>
 
                 </div>
 
             </div>
-            
+
         </div>
     </div>
 </div>

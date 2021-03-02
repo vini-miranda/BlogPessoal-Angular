@@ -1,0 +1,46 @@
+label{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+    
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+textarea{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    resize: none;
+}
+
+select{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.font{
+    font-family: 'DotGothic16', sans-serif;
+    color: white;
+}
+
+.font-black{
+    font-family: 'DotGothic16', sans-serif;
+    color: black;
+}
+
+.botao{
+    background-color: rgb(238, 238, 115);
+}
+
+.font-roboto {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+
+.font-roboto-lt {
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}

@@ -6,6 +6,22 @@
     font-size: 18pt;
 }
 
+input{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+textarea{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    resize: none;
+}
+
+select{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
 .font {
     font-family: 'DotGothic16', sans-serif;
     color: white;
@@ -19,7 +35,7 @@
 .font-roboto {
     font-family: 'Roboto', sans-serif;
     color: black;
-    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .font-roboto-lt {
